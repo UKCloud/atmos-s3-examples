@@ -14,6 +14,7 @@ vairables. Please ensure the following are exported:
 UKCLOUD_S3_UID
 UKCLOUD_S3_SUBTENANT
 UKCLOUD_S3_SECRET
+UKCLOUD_S3_HOST
 ```
 
 Linux:
@@ -21,6 +22,7 @@ Linux:
 export UKCLOUD_S3_UID=abc12345543434324234jdlfkjwsadde
 export UKCLOUD_S3_SUBTENANT=A123456678912345
 export UKCLOUD_S3_SECRET=ABC2346253HFDG453=
+export UKCLOUD_S3_HOST=casxxxx.ukcloud.com
 ```
 
 Windows:
@@ -28,6 +30,7 @@ Windows:
 set UKCLOUD_S3_UID=abc12345543434324234jdlfkjwsadde
 set UKCLOUD_S3_SUBTENANT=A123456678912345
 set UKCLOUD_S3_SECRET=ABC2346253HFDG453=
+set UKCLOUD_S3_HOST=casxxxx.ukcloud.com
 ```
 
 **n.b if you have been provided an Atmos username in the following
