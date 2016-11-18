@@ -54,6 +54,7 @@ Examples are available for the following languages / SDKs
 - Ruby (Fog)
 - Python (Boto)
 - Java (JetS3t)
+- Go (Minio)
 
 Language specific instructions are available in each directory
 
