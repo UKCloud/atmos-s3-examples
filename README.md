@@ -53,8 +53,8 @@ echo %UKCLOUD_S3_UID%
 Examples are available for the following languages / SDKs
 - Ruby (Fog)
 - Python (Boto)
-- Java (JetS3t)
 - Go (Minio)
+- Java (Minio)
 
 Language specific instructions are available in each directory
 
