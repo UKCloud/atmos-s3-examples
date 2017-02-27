@@ -7,9 +7,9 @@ describe Examples do
     @filename = "#{@dir}_newfile"
     puts "Using #{@dir} as Test Directory Name"
   end
+
   before(:each) do
     @s3 = Examples.new
-
   end
 
   it "creates a directory" do
@@ -25,12 +25,13 @@ describe Examples do
   end
 
   it "created a file in a directory" do
-    File.write(@filename, 'some dummy content')
+    cc = File.open(@filename, 'w') { |fh| fh.write 'some dummy content' }
 
     uploaded_file = @s3.upload_file(@dir,@filename)
 
-    expect(uploaded_file.content_length).to be > 0
-    File.delete(@filename)
+    expect(uploaded_file.content_length).to be == cc
+
+    File.unlink(@filename)
   end
 
   it "lists all files in directory" do
