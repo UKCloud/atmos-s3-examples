@@ -3,9 +3,12 @@ require 'fog/aws'
 class Examples
   def initialize
     params = {
-     :aws_access_key_id => "#{ENV['UKCLOUD_S3_UID']}/#{ENV['UKCLOUD_S3_SUBTENANT']}",
-     :aws_secret_access_key => ENV['UKCLOUD_S3_SECRET'],
-     :host => ENV['UKCLOUD_S3_HOST'],
+#     :aws_access_key_id => "#{ENV['UKCLOUD_S3_UID']}/#{ENV['UKCLOUD_S3_SUBTENANT']}",
+     :aws_access_key_id => "de04ee3f8bbd4cbeb6b7f1e6568c3b53/ukcloud001",
+#     :aws_secret_access_key => ENV['UKCLOUD_S3_SECRET'],
+     :aws_secret_access_key => "NAWKLu0RlXIqTeliaFrFxVp52m8=",
+#     :host => ENV['UKCLOUD_S3_HOST'],
+     :host => "cas00002.ukcloud.com",
      :port => '8443',
      :scheme => 'https',
      :path_style => true,
