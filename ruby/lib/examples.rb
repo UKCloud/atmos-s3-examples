@@ -9,7 +9,8 @@ class Examples
      :port => '8443',
      :scheme => 'https',
      :path_style => true,
-     :aws_signature_version=> 2
+     :aws_signature_version=> 2,
+     :region => 'eu',
     }
 
     #connect to Cloud Storage
