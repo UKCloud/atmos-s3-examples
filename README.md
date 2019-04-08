@@ -1,3 +1,9 @@
+#  This examples are few years old,  please use boto3!
+#  https://pypi.org/project/boto3/
+
+
+
+
 # UKCloud Atmos S3 Storage Examples
 
 This project contains sample code for common operations against
